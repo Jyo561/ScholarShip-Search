@@ -1,0 +1,84 @@
+body {
+  background-color: #E0E5EC;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.search-bar {
+  background-color: #E0E5EC;
+  border-radius: 30px;
+  padding: 15px;
+  box-shadow: 5px 5px 15px #A6B1C2, -5px -5px 15px #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-field, .dropdown select {
+  background-color: #E0E5EC;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  box-shadow: inset 2px 2px 5px #A6B1C2, inset -2px -2px 5px #FFFFFF;
+  outline: none;
+}
+
+
+
+.search-button {
+  background-color: #E0E5EC;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px #A6B1C2, -5px -5px 15px #FFFFFF;
+  cursor: pointer;
+}
+
+.search-button i {
+  color: #7986CB;
+}
+
+#ai-response div {
+  background-color: #E0E5EC;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: inset 5px 5px 15px #A6B1C2, inset -5px -5px 15px #FFFFFF;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.scholarship-card:hover {
+  box-shadow: 7px 7px 20px #A6B1C2, -7px -7px 20px #FFFFFF;
+}
+
+#ai-response div h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#ai-response div p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+#ai-response div a {
+  color: #7986CB;
+  text-decoration: none;
+}
