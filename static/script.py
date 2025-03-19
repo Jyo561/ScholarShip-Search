@@ -26,6 +26,7 @@ def search(event):
 # Merging title with its corresponding content
             sections = [sections[i] + sections[i+1] for i in range(1, len(sections)-1, 2)]
             res = document['ai-response']
+            res.html = ""
             for idx, section in enumerate(sections):
                 div = html.DIV()
                 div.innerHTML = section
@@ -43,8 +44,10 @@ def search(event):
             sections = re.split(r'(<h1>.*?</h1>)', result)
 
 # Merging title with its corresponding content
+            
             sections = [sections[i] + sections[i+1] for i in range(1, len(sections)-1, 2)]
             res = document['ai-response']
+            res.html = ""
             for idx, section in enumerate(sections):
                 div = html.DIV()
                 div.innerHTML = section
