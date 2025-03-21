@@ -13,6 +13,22 @@ body {
   padding: 20px;
 }
 
+.neumorphic {
+  background: #e0e5ec;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.neumorphic:focus {
+  box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #ffffff;
+}
+
 .search-bar {
   background-color: #E0E5EC;
   border-radius: 30px;
